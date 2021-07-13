@@ -173,6 +173,7 @@
     .profile-picture{
         margin: 0px 0px 0px 80px;
     }
+    
     .Profile-details-name{
         font-size: 20px;
     }
@@ -188,8 +189,8 @@
 
 @media screen and (max-width:910px){
     .profile-picture{
-   
         height: 290px;
+        width: 290px;
         background-color: red;
 
     }
@@ -203,7 +204,7 @@
 @media screen and (max-width:810px){
     
     .Profile-parent{
-        flex-direction: column-reverse;
+        
         margin: 0px 0px 0px 0px;
     }
     .Profile-Options{
@@ -211,7 +212,7 @@
         justify-content: space-between;
     }
     .Profile-details{
-        margin: 25px 0 0;
+        margin: 25px 0 0 0;
     }
     .btn,.btn2{
         margin: 0!important;
@@ -221,29 +222,58 @@
     }
     .profile-picture{
    
-
-        background-color: yellow;
+        height: 250px;
+        width: 250px;
+    
 
     }
 } 
 
-
-@media screen and (max-width:510px){
+@media screen and (max-width:690px){
+    .Profile-parent{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
     .profile-picture{
-   
+        margin: 0px;
+        height: 300px;
+        width: 100%;
 
-        background-color:green;
 
     }
+ 
 }
+
+
 
 @media screen and (max-width:375px){
     .profile-picture{
         height: 275;
-        width: 275px;
-        margin-top: -90px;
+        width: 100%;
+        margin-top: 0px;
+
     }
     .Profile-details{
-        width: 90%;
+        width: 100%;
+    }
+    .Profile-parent{
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
+
+
+@media screen and (max-width:375px){
+    .profile-picture{
+        height: 175;
+        width: 100%;
+        margin-top: 0px;
+   
+    }
+    .picture-background{
+        width: 92%;
+    }
+}
+
+    
