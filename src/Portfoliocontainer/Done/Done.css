@@ -1,5 +1,5 @@
 .House-Done{
-
+    
     display: grid;
    grid-template-columns: 1fr 1fr;
 margin:70px 70px 0px 50px ;
@@ -124,3 +124,40 @@ width: 0%;
             }
 }
 
+@media screen and (max-width:930px) {
+    .House-Done{
+      
+    }
+    .Done-Left{
+        margin-right: 0px;
+   
+    }
+}
+
+@media screen and (max-width:851px){
+    .House-Done{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+ 
+    }
+    .Done-Right{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:790px) {
+.House-Done{
+    
+    grid-template-columns: 40% 57%;
+    gap: 3%;
+}}
+
+@media screen and (max-width:690px){
+    .House-Done{
+            grid-template-columns: 100%;
+            gap: 0px;
+    }
+    
+}

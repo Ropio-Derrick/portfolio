@@ -19,7 +19,7 @@ function AboutMe() {
           javascript developer. I work closely with my clients to deliver the
           best possible solutions for their needs.
         </h1>
-        <h1 className="Myself">
+        <h1 className="Myself2">
           I have worked with a couple of teams and firms for both Website
           development and Web Applications development. I am proficient with CMS
           softwares like WordPress and graphic design packs like Adobe, well
@@ -27,7 +27,7 @@ function AboutMe() {
           safe and secure online.
         </h1>
       </div>
-      <div>
+      <div className="FlooperOne">
         <Floop />
       </div>
     </div>

@@ -45,3 +45,117 @@
     padding: 3px;
 
 }
+
+@media screen and (max-width:940px){
+  .Block-Floop{
+    width: 100%;
+  }
+ .Flooper{
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+ }
+}
+
+@media screen and (max-width:801px){
+    .Flooper{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0px;
+     
+     }
+     .Header-Floop{
+        font-weight:500 ;
+        text-align: center;
+        font-size: 20px;
+    }
+    .Block-Floop{
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:751px){
+    .Block-Floop{
+        height: 80px;
+      
+    }
+    .Header-Floop1 p{
+        font-size: 13px;
+        font-weight: 500;
+        text-align: justify;
+        justify-content: center;
+        padding: 2px;
+    
+    }
+    .Flooper{
+        gap: 10px;
+     
+    }
+    .Block-Floop{
+        border-radius: 7px;
+    }
+
+}
+
+
+@media screen and (max-width:690px){
+    .Flooper{
+       
+        flex-direction: row;
+        gap: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0px;
+     
+     }
+     .Header-Floop{
+        font-weight:500 ;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    
+    .Header-Floop1 p{
+        font-size: 15px;
+        font-weight: 500;justify-content: center;
+        padding: 3px;
+        text-align: center;
+    
+    }
+    .Block-Floop{
+      
+      margin: 10px;
+    
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:690px){
+    .Block-Floop{
+      
+        margin: 7px;
+          height: 210px;
+      }
+}
+
+@media screen and (max-width:530px){
+    .Flooper{
+        margin-left: 5px;
+        margin-right: 20px;
+       display: grid;
+       grid-template-columns: 1fr;
+      }
+      .Block-Floop{
+      
+        margin: 7px;
+          height: 110px;
+      }
+}
+
+@media screen and (max-width:375px){
+    .Flooper{
+        padding: 0px 10px 0px 0px;
+        margin-right: 10px;
+    
+    }
+}

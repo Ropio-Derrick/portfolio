@@ -24,7 +24,7 @@
 
 }
 
-.Myself{
+.Myself, .Myself2{
     font-size: 20px;
     font-weight: 400;
     text-align: left;
@@ -121,3 +121,73 @@ line-height: 15px;
 display: flex;
 justify-content: space-between;
 }
+
+@media screen and (max-width:940px){
+    .AboutMe{
+        grid-template-columns: 57% 40%;
+    
+    }
+    .Flooperone{
+        margin: 0px;
+        padding: 0px;
+    margin: 0px;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width:851px){
+    .Myself,.Myself2{
+      text-align: Justify;
+     
+     }
+     .Me{
+        padding-right: 20px;
+        padding-left: 10px;
+        margin-left: 10px;
+     }
+     
+}
+
+@media screen and (max-width:751px){
+    .Myself2{
+      font-size: 18px;
+      display: none;
+     }
+     .Myself{
+        font-size: 18px;
+       }
+}
+
+@media screen and (max-width:690px){
+    .AboutMe{
+       
+        grid-template-columns: 1fr;
+    }
+    .Me{
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 0px;
+     }
+    .Myself2{
+        font-size: 18px;
+        display:block;
+       }
+    
+}
+
+@media screen and (max-width:500px){
+    .Myself2{
+        font-size: 18px;
+        display: none;
+       }
+}
+
+
+@media screen and (max-width:375px){
+    .Me{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0px;
+     }
+}
+
