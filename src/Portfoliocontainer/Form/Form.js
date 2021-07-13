@@ -14,7 +14,8 @@ function Form() {
         <div
           className="Former"
           style={{
-            transform: " rotateX(180deg) rotateY(180deg) rotateZ(180deg)   ",
+            transform:
+              " rotateX(180deg) rotateY(180deg) rotateZ(180deg)  ",
             transition: "all 0.25s ease-in",
           }}
         >

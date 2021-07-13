@@ -66,9 +66,11 @@ function Floop() {
             }}
           >
             <div className="Header-Floop1">
-              <h6>HTML</h6>
-              <h6>CSS</h6>
-              <h6>JS</h6>
+              <p>
+                Perfect website relates to Perfect online, we design websites
+                with customized features and classic design powered by the
+                latest web development technology.{" "}
+              </p>
             </div>
           </div>
         )}
@@ -112,10 +114,11 @@ function Floop() {
             }}
           >
             <div className="Header-Floop1">
-              <h6>React</h6>
-              <h6>Next</h6>
-              <h6>Express</h6>
-              <h6>Node </h6>
+              <p>
+                I design and develop unique, fast, customized for you and
+                scalable web applications with awesome functionality for people,
+                businesses, companies and organizations.{" "}
+              </p>
             </div>
           </div>
         )}
@@ -160,9 +163,11 @@ function Floop() {
             }}
           >
             <div className="Header-Floop1">
-              <h6>React Native</h6>
-              <h6>Express</h6>
-              <h6>Node </h6>
+              <p>
+                Get android mobile applications , IOS apps and cross-platform
+                applications for you, with fast, scalable, and customizable
+                features ready for you. .{" "}
+              </p>
             </div>
           </div>
         )}

@@ -1,12 +1,16 @@
 .AboutMe{
+    margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 53% 47%;
     color: #fff;
     gap: 20px;
 }
 
 .Me{
     padding-left: 10%;
+    border-right: 1px solid white;
+    padding-right: 20px;
+ 
 }
 
 .MeLeb{
