@@ -14,76 +14,19 @@ function Form() {
         <div
           className="Former"
           style={{
-            transform:
-              " rotateX(180deg) rotateY(180deg) rotateZ(180deg)  ",
+            transform: " rotateX(180deg) rotateY(180deg) rotateZ(180deg)  ",
             transition: "all 0.25s ease-in",
           }}
         >
-          <h1 className="Set-Header">My Top Set</h1>
+          <h1 className="Set-Header">My Skills</h1>
           <div className="Displayer">
             <img
               className="iconer"
-              src={require("../../assets/img/favicon.png")}
+              src="https://image.pngaaa.com/946/2507946-small.png"
             />
             <img
               className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
-            />
-            <img
-              className="iconer"
-              src={require("../../assets/img/favicon.png")}
+              src="https://image.pngaaa.com/476/7820476-small.png"
             />
           </div>
         </div>
@@ -101,14 +44,18 @@ function Form() {
 
             <div className="Form-Placer">
               <div className="Name-Sitter">
-                <input className="Name-Form" type="text" placeholder="Name" />
+                <input
+                  className="Name-Form"
+                  type="text"
+                  placeholder="Enter Your Name"
+                />
               </div>
               <div className="Email-Sitter">
                 <input
                   className="Email-Form"
                   type="email"
                   aria-required
-                  placeholder="Email"
+                  placeholder="Enter Your Email"
                 />
               </div>
               <div className="Email-Sitter">
@@ -116,7 +63,7 @@ function Form() {
                   className="Subject-Form"
                   type="subject"
                   aria-required
-                  placeholder="Subject"
+                  placeholder="Enter YOur Subject"
                 />
               </div>
             </div>

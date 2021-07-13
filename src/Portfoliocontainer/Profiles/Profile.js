@@ -37,7 +37,10 @@ export default function Profile() {
               <h1>{""}</h1>
               <span className="profile-role-tagline">
                 {""}
-                Best Design <span className="profile-role-tagline-spanner" >Super Functionality</span>
+                Best Design{" "}
+                <span className="profile-role-tagline-spanner">
+                  Super Functionality
+                </span>
               </span>
             </span>
           </div>
