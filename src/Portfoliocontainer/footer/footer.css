@@ -1,15 +1,17 @@
-.foooter-container{
-    height: 17.8%;
+.Foooter-container{
     width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     border: none;
+
+
 }
 
 .footer-parent{
+    margin-top: 60px;
     width: 100%;
-    height: 100%;
+
     max-width: 1920px;
 }
 
@@ -17,15 +19,102 @@
     width: 100%;
     max-width: 100%;
     height: 130px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .Photo{
-    background-image: url('../../assets/img/see.png');
-    background-position-x: left;
-    position: relative;
+position: absolute;
+}
 
-background-repeat: no-repeat;
-background-size: cover;
+.Footer-Specs{
+    padding: 0px;
+    height: 170px;
+    background-color: #fff;
+z-index: 9;
+position: relative;
+    margin-top: 150px;
+    display: flex;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    
+}
+
+.Right-Footer{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.Right-Specs{
+    height: 100px;
+    text-align: center;
+    width: 100px;
+    padding-left: 50px;
+
+}
+
+.Left-Footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    color: black;
+}
+
+.Left-Specs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Left-Specs div{
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+}
+
+.Left-Specs h1{
+    font-size: 24px;
+    text-align: left;
+    color: #1f2235;
+}
+
+.Left-Specs div a{
+    font-size: 20px;
+    padding-left: 10px;
+    transition: all 0.25s ease-out;
+    cursor: pointer;
+    float: left;
+    text-align: left;
+    color: #1f2235;
+    font-weight:500;
+}
+.Left-Specs div a:hover{
+    transition: all 0.4s ease-in;
+    color: #ff8400;
+ 
+}
+
+.Locator{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -20px;
+}
+
+.Locator h1{
+   font-size:20px ;
+   padding: 0px;
+   margin: 0px;
+}
+
+.Locator h1 span{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 2px;
 }
 
 @media only screen and (max-widht: 1110px){

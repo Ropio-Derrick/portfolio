@@ -12,7 +12,7 @@ export default function Home() {
       <Profile />
 
       <AboutMe />
-      {/* <Footer /> */}
+      <Footer />
       {/* 
     <Slide1/> */}
     </div>

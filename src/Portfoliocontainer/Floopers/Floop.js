@@ -2,25 +2,25 @@ import React, { useState } from "react";
 import "./Flooper.css";
 
 function Floop() {
-  const [block, setBlock] = useState(!false);
-  const [color, setColor] = useState(!false);
-  const [block1, setBlock1] = useState(!false);
-  const [block2, setBlock2] = useState(!false);
+  const [block, setBlock] = useState(false);
+  const [color, setColor] = useState(false);
+  const [block1, setBlock1] = useState(false);
+  const [block2, setBlock2] = useState(false);
   const [flag, setFlag] = useState();
   const [flag1, setFlag1] = useState();
   const [flag2, setFlag2] = useState();
 
   const Changer = () => {
-    setBlock(flag);
+    setBlock(!flag);
     setFlag(block);
   };
   const Changer1 = () => {
-    setBlock1(flag1);
+    setBlock1(!flag1);
     setFlag1(block1);
   };
 
   const Changer2 = () => {
-    setBlock2(flag2);
+    setBlock2(!flag2);
     setFlag2(block2);
   };
 
@@ -31,7 +31,7 @@ function Floop() {
         onMouseOverCapture={Changer}
         onClick={Changer}
         style={
-          flag
+          !flag
             ? {
                 backgroundColor: "transparent",
                 transition: "all 0.25s ease-in-out",
@@ -44,7 +44,7 @@ function Floop() {
               }
         }
       >
-        {flag ? (
+        {!flag ? (
           <div className="">
             <h1
               className="Header-Floop"
@@ -77,7 +77,7 @@ function Floop() {
         onMouseOver={Changer1}
         onClick={Changer1}
         style={
-          flag1
+          !flag1
             ? {
                 backgroundColor: "transparent",
                 transition: "all 0.25s ease-in-out",
@@ -90,7 +90,7 @@ function Floop() {
               }
         }
       >
-        {flag1 ? (
+        {!flag1 ? (
           <div>
             <h1
               className="Header-Floop"
@@ -123,7 +123,7 @@ function Floop() {
         onMouseOver={Changer2}
         onClick={Changer2}
         style={
-          flag2
+          !flag2
             ? {
                 backgroundColor: "transparent",
                 transition: "all 0.25s ease-in-out",
@@ -136,7 +136,7 @@ function Floop() {
               }
         }
       >
-        {flag2 ? (
+        {!flag2 ? (
           <div>
             <h1
               className="Header-Floop"
@@ -145,7 +145,8 @@ function Floop() {
                 color: "white",
               }}
             >
-              Mobile Apps<br /> Development
+              Mobile Apps
+              <br /> Development
             </h1>
           </div>
         ) : (

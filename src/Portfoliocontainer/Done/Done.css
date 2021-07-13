@@ -1,5 +1,7 @@
 .House-Done{
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
 }
 
 .Baggy{

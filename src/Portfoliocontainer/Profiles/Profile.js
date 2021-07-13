@@ -26,7 +26,7 @@ export default function Profile() {
             </div>
           </div>
           <div className="Profile-details-name">
-            <span className="primary-text">
+            <span className="Primary-text">
               {""}
               Hello, I'm <span className="highlited-text">Derrick</span>
             </span>
@@ -37,7 +37,7 @@ export default function Profile() {
               <h1>{""}</h1>
               <span className="profile-role-tagline">
                 {""}
-                Best design with super functionality
+                Best Design <span className="profile-role-tagline-spanner" >Super Functionality</span>
               </span>
             </span>
           </div>
@@ -49,8 +49,8 @@ export default function Profile() {
             </h1>
             <a
               className="buttonz"
-              href="../../assets/img/pexels-shvets-production-7191981.jpg"
-              download="pexels-shvets-production-7191981.jpg"
+              href={require("../../Materials/ropio.pdf")}
+              download="ropio.pdf"
             >
               Resume
             </a>
