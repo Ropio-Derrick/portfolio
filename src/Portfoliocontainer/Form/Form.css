@@ -1,0 +1,142 @@
+
+
+.Former{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    
+    height: 400px;
+    box-shadow: inset 3px 2px 30px 10px #00000030;
+   }
+
+   
+
+.Former-Main{
+
+    margin-top: 0px;
+
+}
+
+.Email-Header{
+    color: #1f2235;
+    text-align: center;
+
+}
+
+.Set-Header{
+    color: #1f2235;
+    text-align: center; 
+    margin-top: 50px;
+}
+
+.Name, .Email{
+    font-size: 20px;
+}
+
+
+.Name-Form, .Email-Form{
+    width: 100%;
+    background-color: #1f22357d;
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+.Subject-Form{
+    border-radius: 3px;
+    width: 100%;
+    background-color: #1f22357d;
+    outline: none;
+    border: none;
+    color: white;
+    height: 90px;
+
+}
+
+
+.smt-btn{
+    margin-top: 20px;
+    align-items: center;
+    background-color: #1f2235;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.smt-btn1{
+    margin-top: -50px;
+    align-items: center;
+    background-color: #1f2235;
+    color: #fff;
+    border: 2px solid white;
+    outline: none;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.smt-btn2{
+    margin-top: -50px;
+    align-items: center;
+    background-color: #1f2235;
+    color: #fff;
+    border: 2px solid white;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.button-placer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.button-placer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.Displayer{
+    position: relative;
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.iconer{
+    width: 40px;
+    transition: all  0.35s ease-out;
+    height: 40px;
+}
+
+.iconer:hover{
+    scale: 120%;
+    transition: all  0.35s ease-in;
+}

@@ -41,6 +41,7 @@ function Floop() {
                 backgroundColor: "white",
                 transition: "all 0.25ss ease-in-out",
                 border: "1px solid white",
+                boxShadow: "inset 3px 2px 30px 10px #00000030",
               }
         }
       >
@@ -87,6 +88,7 @@ function Floop() {
                 backgroundColor: "white",
                 transition: "all 0.25ss ease-in",
                 border: "1px solid white",
+                boxShadow: "inset 3px 2px 30px 10px #00000030",
               }
         }
       >
@@ -133,6 +135,7 @@ function Floop() {
                 backgroundColor: "white",
                 transition: "all 0.25ss ease-in",
                 border: "1px solid white",
+                boxShadow: "inset 3px 2px 30px 10px #00000030",
               }
         }
       >

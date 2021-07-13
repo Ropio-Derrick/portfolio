@@ -1,7 +1,9 @@
 .House-Done{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
+
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+padding:70px 50px 0px 50px ;
+ 
 }
 
 .Baggy{
@@ -71,5 +73,53 @@
 
 .Header-Done{
     font-size: 30px;
+}
+
+.hrRater{
+    margin: 100px 0px 0px 0px;
+ 
+
+}
+
+.Liner1{
+    margin: 0px;
+    border: 1px solid #de8727;
+    padding-left: 2px;
+    padding-right: 5px;
+border-radius: 10px;
+    
+
+}
+
+.hrRater1{
+padding: 0px;
+margin: 0px;
+height: 2px;
+color: #de8727;
+border: none;
+outline: none;
+text-decoration: none;
+animation: anim 6s alternate infinite;
+background-color: white;
+}
+
+.Done-Left{
+    margin-top: 60px;
+   margin-left: 50px;
+   position: relative;
+}
+
+.Done-Left-Packer h1{
+font-size: 20px;
+}
+
+@keyframes anim {
+    0% {
+width: 0%;
+    }
+    100% {
+        width: 80%;
+        background-color: #ff8400;
+            }
 }
 
