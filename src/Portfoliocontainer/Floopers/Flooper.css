@@ -1,0 +1,44 @@
+.Flooper{
+    margin-top:30px ;
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+   justify-content: space-between;
+   gap: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+
+}
+
+
+.Block-Floop{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 20px;
+    animation: mouse 3s linear infinite;
+}
+
+
+
+
+.Header-Floop{
+    font-weight:500 ;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Header-Floop1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.Header-Floop1 h6{
+    font-size: 23px;
+    font-weight: 600;
+
+}

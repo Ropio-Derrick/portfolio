@@ -1,0 +1,119 @@
+.AboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    gap: 20px;
+}
+
+.Me{
+    padding-left: 10%;
+}
+
+.MeLeb{
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    font-size: 30px;
+    color: #ff8000;
+    float: Left;
+    padding: 12px 20px 0px 0px;
+
+}
+
+.Myself{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 70%;
+}
+
+
+
+.MeLeb2{
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    font-size: 30px;
+    color: #ff8000;
+    float: right;
+    padding: 12px 20px 0px 0px;
+
+}
+
+.Myself2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    opacity: 70%;
+    background-color: transparent;
+    
+}
+
+
+.Myselfspanner{   color: #fff;
+animation: changer 4s  linear infinite;
+}
+
+
+.Experience{
+    display: flex;
+    padding-right: 10%;
+   background-color: rgba(255, 255, 255, 0.049);
+   border-radius: 20px 0px 0px 20px ;
+}
+
+.Swiper{
+    position: relative;
+    background-color: #ff8000;
+    height: 100%;
+    width: 20px;
+    border-radius: 0px 4px 4px 0px;
+    animation: slider 4s linear infinite;
+    z-index: 0;
+    border-radius: 20px 0px 0px 20px ;
+
+}
+
+@keyframes slider {
+    0%{
+        width:20px ;
+        background-color: rgba(255, 255, 255, 0.094);
+
+    }
+
+
+
+    100%{
+        width: 100%;
+        background-color: transparent}
+}
+
+.carrier{
+    position: absolute;
+    padding-left: 10px;
+}
+
+
+.skills{
+    color: #ff8000;
+}
+.headskill{
+color: #fff;
+font-size: 25px;
+font-weight: 500;
+}
+
+.listers{
+padding: 5px;
+text-decoration: none;
+outline: none;
+font-size: 17px;
+margin: 0px;
+font-weight: 500;
+line-height: 15px;
+}
+
+.flexer{
+display: flex;
+justify-content: space-between;
+}

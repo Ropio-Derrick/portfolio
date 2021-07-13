@@ -1,0 +1,73 @@
+.House-Done{
+    margin-top: 40px;
+}
+
+.Baggy{
+    background-image: url(../../assets/img/wp8371852-minimal-code-wallpapers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 45%;
+    position: absolute;
+    transition: all 0.5s ease-out;
+    opacity: 90%; 
+}
+
+.Baggy:hover{
+    scale: 110%;
+    transition: all 0.5s ease-in;
+    opacity: 100%;
+    z-index: 9;
+}
+
+.Work1{
+    background-image: url(../../assets/img/pexels-shvets-production-7191981.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    height: 300px;
+    width: 55%;
+    float: right;
+    position: relative;
+    transition: all 0.5s ease-out;
+    opacity: 90%;
+}
+
+.Work1:hover{
+    scale: 110%;
+    transition: all 0.5s ease-in;
+    z-index: 9;
+    opacity: 100%;
+    width: 100%;
+}
+
+
+.Work2{
+    background-image: url(../../assets/img/IMG_0169.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 35%;
+    float: right;
+    margin-top: 180px;
+    margin-left: 20px;
+    position: absolute;
+    transition: all 0.5s ease-out;
+    opacity: 90%;}
+
+.Work2:hover{
+    scale: 110%;
+    transition: all 0.5s ease-in;
+    opacity: 100%;
+    z-index: 9;
+    width: 45%;
+}
+
+
+.Header-Done{
+    font-size: 30px;
+}
+
