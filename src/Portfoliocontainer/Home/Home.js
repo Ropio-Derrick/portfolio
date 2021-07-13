@@ -16,7 +16,7 @@ export default function Home() {
 
       <Done />
 
-      <Footer />
+      {/* <Footer /> */}
       {/* 
     <Slide1/> */}
     </div>

@@ -125,9 +125,7 @@ width: 0%;
 }
 
 @media screen and (max-width:930px) {
-    .House-Done{
-      
-    }
+    
     .Done-Left{
         margin-right: 0px;
    
@@ -149,7 +147,7 @@ width: 0%;
 
 @media screen and (max-width:790px) {
 .House-Done{
-    
+ 
     grid-template-columns: 40% 57%;
     gap: 3%;
 }}
@@ -158,6 +156,72 @@ width: 0%;
     .House-Done{
             grid-template-columns: 100%;
             gap: 0px;
+            margin-right: 50px;
+    }
+    .Baggy{
+      width: 94%;
+      height: 400px;
+    }
+    .Baggy:hover{
+        scale: 105%;
+      }
+    .Work1{
+        margin-top: 100px;
+        height: 450px;
+        width: 55%;
+    }
+    .Work1:hover{
+        scale: 105%;
+    }
+    .Work2{
+        height: 300px;
+        width: 65%;
+
+    }
+    .Work2:hover{
+    
+width: 88%;
+    }
+    .Done-Left{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+        background-color: bluevioletss;
+    }
+}
+
+@media screen and (max-width:680px){
+    .House-Done{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .Work1:hover{
+        scale: 105%;
+
+    }.Baggy:hover{
+scale: 100%;
+
+    }
+    .Baggy{
+   margin-right: 20px;
     }
     
+    .Work2:hover {
+       scale: 100%;
+       margin-left: 0px;
+       padding: 0px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .Baggy{
+        height: 250px;
+         }
+         .Work1{
+            height: 250px;
+         }
+         .Work2{
+            height: 200px;
+         }
 }

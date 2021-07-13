@@ -37,25 +37,26 @@
 
 
 .Name-Form, .Email-Form{
-    width: 100%;
-    background-color: #1f22357d;
+    width: 90%;
+    background-color: #1f2235;
     outline: none;
     border: none;
     height: 30px;
     margin-bottom: 10px;
     border-radius: 3px;
     color: white;
+    margin-left: 5%;
 }
 
 .Subject-Form{
     border-radius: 3px;
-    width: 100%;
-    background-color: #1f22357d;
+    width: 90%;
+    background-color: #1f2235;
     outline: none;
     border: none;
     color: white;
     height: 90px;
-
+    margin-left: 5%;
 }
 
 
@@ -121,14 +122,20 @@
     position: relative;
     margin-top: 20px;
     display: grid;
-    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-self: center;
+ 
 }
 
 .iconer{
     width: 40px;
     transition: all  0.35s ease-out;
     height: 40px;
+   
+
+   
 }
 
 .iconer:hover{
@@ -154,6 +161,7 @@
 
     @media screen and (max-width:690px){
         .Former{
+            width: 100%;
                margin: 0px;
                padding: 0px;
         }
