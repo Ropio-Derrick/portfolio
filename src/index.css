@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    color: #1f2235;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-Black.ttf);
+}
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-Bold.ttf);
+}
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-ExtraLight.ttf);
+}
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-Light.ttf);
+}
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-Regular.ttf);
+}
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-SemiBold.ttf);
+}
+@font-face {
+  font-family: cairo;
+  src: url(./assets/home/cairo-2-cufonfonts/Cairo-Black.ttf);
 }
