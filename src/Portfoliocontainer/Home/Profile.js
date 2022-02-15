@@ -64,7 +64,7 @@ export default function Profile() {
                        {""}
                        Hire Me         
                     </button>
-                    <a className='btn2' href="../../Materials/ropio.pdf" download="ropio.pdf ">
+                    <a className='btn2' href="../../assets/img/pexels-shvets-production-7191981.jpg" download="pexels-shvets-production-7191981.jpg">
                         Get Resume
                     </a>
 
