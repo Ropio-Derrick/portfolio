@@ -123,10 +123,7 @@
 
 /* Media */
 @media screen and (max-width:1110px){
-    .Profile-container{
-    margin-top: 90px;
 
-}
     .profile-picture{
         margin: 0px 0px 0px 80px;
     }
@@ -149,13 +146,17 @@
         height: 290px;
         margin-left: 10%;
     }
+    .Profile-container{
+       margin-top: 90px;
+
+}
 
 }
 @media screen and (max-width:810px){
     
     .Profile-parent{
         flex-direction: column-reverse;
-        margin: 0px 0px 0px 10px;
+        margin: 0px 0px 0px 0px;
     }
     .Profile-Options{
         display: flex;
