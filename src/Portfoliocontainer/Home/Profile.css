@@ -151,7 +151,7 @@
     
     .Profile-parent{
         flex-direction: column-reverse;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 10px;
     }
     .Profile-Options{
         display: flex;
