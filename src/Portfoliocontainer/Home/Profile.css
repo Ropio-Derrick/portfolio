@@ -142,7 +142,7 @@
 @media screen and (max-width:910px){
     .profile-picture{
         width: 320px;
-        height: 320px;
+        height: 290px;
         margin: 0px 0px 0px 20px;
     }
 
@@ -151,7 +151,7 @@
     
     .Profile-parent{
         flex-direction: column-reverse;
-        margin: 40px 0px 0px 0px;
+        margin: 40px 0px 0px 40px;
     }
     .Profile-Options{
         display: flex;
