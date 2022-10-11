@@ -18,16 +18,15 @@ function Form() {
             transition: "all 0.25s ease-in",
           }}
         >
-          <h1 className="Set-Header">My Skills</h1>
+          <h1 className="Set-Header">Knowledge</h1>
           <div className="Displayer">
-            <img
-              className="iconer"
-              src="https://image.pngaaa.com/946/2507946-small.png"
-            />
-            <img
-              className="iconer"
-              src="https://image.pngaaa.com/476/7820476-small.png"
-            />
+            <h5>
+              Leverage agile frameworks to provide a robust synopsis for high
+              level overviews. Iterative approaches to corporate strategy foster
+              collaborative thinking to further the overall value proposition.
+              Organically grow the holistic world view of disruptive innovation
+              via workplace diversity and empowerment.
+            </h5>
           </div>
         </div>
       ) : (

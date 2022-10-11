@@ -25,6 +25,7 @@
 
 .Photo{
 position: absolute;
+object-position: right;
 }
 
 .Footer-Specs{
@@ -35,9 +36,9 @@ z-index: 9;
 position: relative;
     margin-top: 150px;
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 35% 65%;
 
     
 }
@@ -51,16 +52,16 @@ align-items: center;
 }
 
 .Right-Specs{
-    height: 100px;
+    height: 190px;
     text-align: center;
-    width: 100px;
+    width: 190px;
     padding-left: 50px;
 
 }
 
 .Left-Footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr  1fr;
     width: 100%;
     color: black;
 }
@@ -69,6 +70,9 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: left;
+    margin-top: 20px;
+    padding: 0%;
 }
 
 .Left-Specs div{
@@ -83,7 +87,7 @@ align-items: center;
     color: #1f2235;
 }
 
-.Left-Specs div a{
+.Left-Specs div a, .Left-Specs div a a{
     font-size: 20px;
     padding-left: 10px;
     transition: all 0.25s ease-out;
@@ -100,9 +104,7 @@ align-items: center;
 }
 
 .Locator{
-    margin: 0px;
-    padding: 0px;
-    margin-top: -20px;
+    margin-top: -90px;
 }
 
 .Locator h1{
@@ -115,6 +117,12 @@ align-items: center;
     font-weight: 500;
     font-size: 18px;
     padding-left: 2px;
+}
+
+.colz-iconfoot{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
 }
 
 @media only screen and (max-widht: 1110px){

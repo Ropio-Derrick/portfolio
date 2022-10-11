@@ -5,27 +5,37 @@ export default function footer() {
   return (
     <div className="Footer-Container">
       <div className="footer-parent">
-        <img
-          className="Photo"
-          src="https://drive.google.com/file/d/13G-gbQVvvkANwVECPQxK2u-eVPanm2UA/view?usp=sharing"
-        />
+        <img className="Photo" src={require("../../assets/img/see.png")} />
       </div>
       <div className="Footer-Specs">
         <div className="Right-Footer">
           <img
             className="Right-Specs"
-            src={require("../../assets/img/favicon.png")}
+            height={150}
+            width={150}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeCURlLmp_F_mVeLYhMHj6O4JQm0k6N_Wrw&usqp=CAU"
           />
         </div>
+
         <div className="Left-Footer">
           <div className="Left-Specs">
             <h1>Platforms</h1>
             <div>
-              <a>Facebook</a>
-              <a>Twitter</a>
-              <a>Instagram</a>
-              <a>LinkedIn</a>
-              <a>Dribble</a>
+              <a href="https://www.instagram.com/ropio_derrick/">
+                <i className="fab fa-instagram"> Instagram</i>
+              </a>
+              <a href="https://medium.com/@rodetuk">
+                <i className="fab fa-github"> github</i>
+              </a>
+              <a href="https://ke.linkedin.com/in/derrick-ropio-a099a820a">
+                <i className="fab fa-linkedin"> Linked In</i>
+              </a>
+              <a href="https://mobile.twitter.com/derrickropio">
+                <i className="fab fa-twitter"> Twitter</i>
+              </a>
+              <a href="https://mobile.facebook.com/people/Ropio-Derrick/100009295641568?_rdc=1&_rdr">
+                <a className="fab fa-facebook "> Facebook</a>
+              </a>
             </div>
           </div>
           <div className="Left-Specs">
