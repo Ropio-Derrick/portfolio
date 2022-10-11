@@ -5,7 +5,10 @@ export default function footer() {
   return (
     <div className="Footer-Container">
       <div className="footer-parent">
-        <img className="Photo" src={require("../../assets/img/see.png")} />
+        <img
+          className="Photo"
+          src="https://drive.google.com/file/d/13G-gbQVvvkANwVECPQxK2u-eVPanm2UA/view?usp=sharing"
+        />
       </div>
       <div className="Footer-Specs">
         <div className="Right-Footer">

@@ -6,7 +6,7 @@ function Done() {
   return (
     <div className="House-Done">
       <div className="Done-Right">
-        <h1 className="Header-Done">My Work</h1>
+        <h1 className="Header-Done">My Projects</h1>
 
         <img className="Baggy" />
         <img className="Work1" />
